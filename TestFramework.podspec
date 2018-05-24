@@ -14,7 +14,7 @@ s.author               = "Prateek"
 #7.
 s.platform            = :ios, "10.0"
 #8.
-s.source              = { :git => "https://github.com/Prateekkotian/TestFramework.git", :tag => "1.0.0" }
+s.source              = { :git => "https://github.com/Prateekkotian/TestFramework.git", :tag => "#{s.version}" }
 #9.
 s.source_files     = "YLogging", "YLogging/**/*.{h,m,swift}"
 s.dependency "TwitterKit"
